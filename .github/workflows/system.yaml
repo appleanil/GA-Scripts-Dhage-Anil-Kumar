@@ -25,3 +25,6 @@ jobs:
 
             - name: Linux commands
               run: date
+
+            - name: Linux commands
+              run: ls -lrth
