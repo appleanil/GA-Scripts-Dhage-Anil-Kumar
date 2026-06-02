@@ -16,7 +16,7 @@ jobs:
               run: cat anil.txt
 
             - name: Show me the path
-              run: 
+              run: |
                 pwd, 
                 ls -lrth
 
@@ -24,6 +24,6 @@ jobs:
               run: ls -lrth
 
             - name: Show me the date
-              run: 
+              run: |
                 echo "Todays date is:"
                 date
