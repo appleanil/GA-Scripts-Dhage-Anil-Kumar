@@ -1,20 +1,16 @@
 name: Checking for another one Github Actions
 
-on: 
-  push:
+on: push
 
 jobs:
-  test-job:
+    test-job:
+        runs-on: ubuntu-latest
 
-    runs-on: ubuntu-latest
+        steps:
+            - name: "Display the my name"
+              run: echo "My name is Dhage Anil Kumar"
 
-    steps:
-
-      - name: Display my name
-        run: echo "My name is Dhage Anil Kumar"
-
-      - name: Display today's date
-        run: |
-          echo "Today's date is:"
-          date
-             
+            - name: "Display the today date"
+              run: 
+                echo "Today's date is:" 
+                date
