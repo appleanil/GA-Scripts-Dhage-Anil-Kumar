@@ -1,13 +1,14 @@
 name: Dev branch manual triggers
 
 on:
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-    Dev-branches-manually-triggering:
+  Dev-branches-manually-triggering:
 
-        runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Linux commands
-              run: date
+    steps:
+
+      - name: Linux commands
+        run: date
