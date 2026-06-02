@@ -1,0 +1,15 @@
+name: Dev branch manual triggers
+
+on:
+    push:
+        branches: [dev]
+    workflow_dispatch:
+
+jobs:
+    Dev-branches-manually-triggering:
+
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Linux commands
+              run: date
