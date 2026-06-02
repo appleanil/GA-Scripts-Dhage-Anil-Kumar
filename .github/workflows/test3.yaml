@@ -16,7 +16,7 @@ jobs:
               run: cat anil.txt
 
             - name: Show me the path
-              run: pwd
+              run: pwd, ls -lrth
 
             - name: Show me the all files
               run: ls -lrth
