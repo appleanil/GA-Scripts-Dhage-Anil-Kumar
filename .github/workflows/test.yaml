@@ -1,1 +1,14 @@
+name: Working for Github Actions
 
+on: push
+
+jobs:
+    test-job:
+        runs-on: unbuntu-latest
+
+        steps:
+            - name: Displaying my name
+              run: echo "My Name is Dhage Anil Kumar"
+
+            - name: Displaying today date and month
+              run: date
