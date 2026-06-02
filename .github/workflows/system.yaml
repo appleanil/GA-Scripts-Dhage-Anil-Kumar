@@ -21,7 +21,7 @@ jobs:
               run: ls -lrth
 
             - name: create a file
-              run: echo "My Name is Dhage Anil Kumar and Im learning Github Actions" > anilkumar.txt
+              run: echo "My Name is Dhage Anil Kumar and Im learning Github Actions" > anilkumar1.txt
 
             - name: Linux commands
               run: date
