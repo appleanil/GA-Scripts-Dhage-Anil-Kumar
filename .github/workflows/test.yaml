@@ -1,14 +1,21 @@
-name: Working for Github Actions
+name: create a file name
 
 on: push
 
 jobs:
-    test-job:
-        runs-on: unbuntu-latest
+    fileName:
+
+        runs-on: ubuntu-latest
 
         steps:
-            - name: Displaying my name
-              run: echo "My Name is Dhage Anil Kumar"
+            - name: Create a file
+              run: echo "My Name is Dhage Anil Kumar and im leanring Github Actions" > kumar.txt
+              
+            - name: Display the file
+              run: ls -lrth
 
-            - name: Displaying today date and month
+            - name: Display the path
+              run: pwd
+
+            - name: Display the date
               run: date
