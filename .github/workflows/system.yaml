@@ -1,0 +1,27 @@
+name: Checking system configaration
+
+on: 
+    push:
+        branches: [dev]
+        
+    workflow_dispatch:
+
+
+jobs:
+    System-config:
+
+        runs-on: ubuntu-latest
+
+        steps:
+
+            - name: Linux commands
+              run: pwd
+
+            - name: Linux commands
+              run: ls -lrth
+
+            - name: create a file
+              run: echo "My Name is Dhage Anil Kumar and Im learning Github Actions" > anilkumar1.txt
+
+            - name: Linux commands
+              run: date
