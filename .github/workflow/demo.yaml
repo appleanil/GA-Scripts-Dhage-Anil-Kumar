@@ -3,7 +3,7 @@ name: Merge dev to main
 on:
   push:
     branches:
-      - dev
+      - master
 
 jobs:
 
@@ -14,23 +14,4 @@ jobs:
     steps:
 
       - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Configure Git
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-
-      - name: Switch to main branch
-        run: |
-          git checkout main
-
-      - name: Merge dev into main
-        run: |
-          git merge origin/dev --no-edit
-
-      - name: Push changes to main
-        run: |
-          git push origin main
+        run: date
