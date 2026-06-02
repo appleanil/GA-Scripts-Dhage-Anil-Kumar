@@ -1,6 +1,11 @@
 name: Checking system configaration
 
-on: workflow_dispatch
+on: 
+    push:
+        branches: [dev]
+        
+    workflow_dispatch:
+
 
 jobs:
     System-config:
