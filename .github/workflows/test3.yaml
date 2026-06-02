@@ -22,5 +22,6 @@ jobs:
               run: ls -lrth
 
             - name: Show me the date
-              run: echo "Todays date is"
-                   date
+              run: 
+                echo "Todays date is"
+                date
