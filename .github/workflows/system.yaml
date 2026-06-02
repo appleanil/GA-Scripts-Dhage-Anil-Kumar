@@ -2,7 +2,7 @@ name: Checking system configaration
 
 on: 
     push:
-        branches: [dev]
+        branches: [ dev ]
         
     workflow_dispatch:
 
