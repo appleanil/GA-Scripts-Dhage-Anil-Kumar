@@ -31,3 +31,6 @@ jobs:
 
             - name: Display the path
               run: pwd
+
+            - name: Display the disk usage
+              run: df -h
