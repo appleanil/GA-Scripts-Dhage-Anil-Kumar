@@ -23,5 +23,5 @@ jobs:
 
             - name: Show me the date
               run: 
-                echo "Todays date is"
+                echo "Todays date is:"
                 date
