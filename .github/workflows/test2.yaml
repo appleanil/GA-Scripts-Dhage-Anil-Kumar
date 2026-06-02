@@ -11,5 +11,7 @@ jobs:
               run: echo "My name is Dhage Anil Kumar"
 
             - name: "Display the today date"
-              run: date
+              run: 
+                echo "Todays date is-" 
+                date
              
