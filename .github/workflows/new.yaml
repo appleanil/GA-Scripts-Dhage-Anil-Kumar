@@ -1,7 +1,6 @@
 name: Dev branch manual triggers
 
 on:
-    push:
     workflow_dispatch:
 
 jobs:
