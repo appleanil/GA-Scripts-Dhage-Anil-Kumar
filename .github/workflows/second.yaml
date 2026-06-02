@@ -1,6 +1,10 @@
 name: Second yaml from dev branch
 
-on: push
+on:
+    push:
+        branches: [dev]
+
+    workflow_dispatch
 
 jobs:
     second-job-dev:
