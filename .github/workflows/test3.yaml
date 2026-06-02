@@ -1,29 +1,30 @@
 name: Create a file and Display them
 
-on: push
+on:
+  push:
 
 jobs:
-    files:
+  files:
 
-        runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-        steps:
+    steps:
 
-            - name: Create a file anil.txt
-              run: echo "My name is Dhage Anil Kumar" > anil.txt
+      - name: Create a file anil.txt
+        run: echo "My name is Dhage Anil Kumar" > anil.txt
 
-            - name: Display the file
-              run: cat anil.txt
+      - name: Display the file
+        run: cat anil.txt
 
-            - name: Show me the path
-              run: |
-                pwd, 
-                ls -lrth
+      - name: Show me the path
+        run: |
+          pwd
+          ls -lrth
 
-            - name: Show me the all files
-              run: ls -lrth
+      - name: Show me all files
+        run: ls -lrth
 
-            - name: Show me the date
-              run: |
-                echo "Todays date is:"
-                date
+      - name: Show me the date
+        run: |
+          echo "Today's date is:"
+          date
