@@ -1,0 +1,16 @@
+name: Second yaml from dev branch
+
+on: push
+
+jobs:
+    second-job-dev:
+
+        runs-on: ubuntu-latest
+
+        steps:
+
+            - name: Create a filename
+              run: echo "My name is Dhage Anil Kumar and Im leanring Github Actions" > anil.txt
+
+            - name: Display the filename
+              run: cat anil.txt
