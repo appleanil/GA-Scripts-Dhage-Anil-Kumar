@@ -1,0 +1,12 @@
+name: Checking for another one Github Actions
+
+on: push
+
+jobs:
+    test-job:
+        run-on: ubunut:latest
+
+        steps:
+            - name: "Display the my name"
+              run: echo "My name is Dhage Anil Kumar"
+             
