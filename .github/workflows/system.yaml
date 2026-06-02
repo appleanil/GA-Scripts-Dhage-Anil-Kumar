@@ -28,3 +28,6 @@ jobs:
 
             - name: Display the files
               run: ls -lrth
+
+            - name: Display the path
+              run: pwd
