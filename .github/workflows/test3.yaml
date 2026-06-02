@@ -14,3 +14,13 @@ jobs:
 
             - name: Display the file
               run: cat anil.txt
+
+            - name: Show me the path
+              run: pwd
+
+            - name: Show me the all files
+              run: ls -lrth
+
+            - name: Show me the date
+              run: echo "Todays date is"
+                   date
