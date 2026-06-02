@@ -1,7 +1,6 @@
 name: Second yaml from dev branch
 
 on:
-
     workflow_dispatch:
 
 jobs:
