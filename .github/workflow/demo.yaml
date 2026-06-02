@@ -1,9 +1,6 @@
 name: Merge dev to main
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
 
